@@ -1,5 +1,5 @@
 <?php
-
+//ce fichier contient un tableau associatif avec des informations sur les différentes œuvres d'art(image,titre, artiste, description)
 $oeuvres = [
     1 => [
     'picture' => 'img/clark-van-der-beken.png',
