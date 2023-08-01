@@ -46,7 +46,7 @@
                     <div id="img-oeuvre">
                         <img src="<?php echo $foundOeuvre['picture']; ?>" alt="<?php echo $foundOeuvre['alt']; ?>">
                     </div>
-                    <div class="contenu-oeuvre">
+                    <div id="contenu-oeuvre">
                         <h1><?php echo $foundOeuvre['title']; ?></h1>
                         <p class="description"><?php echo $foundOeuvre['artist']; ?></p>
                         <p class="description-complete"><?php echo $foundOeuvre['description']; ?></p>
