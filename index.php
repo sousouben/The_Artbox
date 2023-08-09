@@ -30,7 +30,7 @@
                         <!-- Affichage du nom de l'artiste -->
                         <h2> <?php echo $oeuvre['artist']; ?> </h2>
                         <!-- Affichage de la description de l'œuvre -->
-                        <p class="description"> <?php echo $oeuvre['description']; ?> </p>
+                        <p class="description"><?php echo $oeuvre['artist']; ?></p>
                     </a>
                 </article>
                 <!-- Fin de la balise "article" pour chaque œuvre -->
